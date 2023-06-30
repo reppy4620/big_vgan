@@ -19,7 +19,7 @@ loss_coef = DotDict(
 mel_dim = 80
 sample_rate = 24000
 hop_length = 256
-segment_size = 64
+segment_size = 32
 sample_segment_size = segment_size * hop_length
 
 audio = DotDict(
