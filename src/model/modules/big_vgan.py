@@ -97,7 +97,7 @@ class BigVGAN(nn.Module):
             for layer in mrf:
                 xs += layer(x)
             x = xs / self.num_kernels
-        x = F.leaky_relu(x)
+        x = self.act_post(x)
         x = self.conv_post(x)
         x = torch.tanh(x)
         return x
