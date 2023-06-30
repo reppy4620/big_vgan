@@ -7,9 +7,6 @@ from torch.nn.utils import weight_norm, remove_weight_norm
 from .activation import AntiAliasActivation
 
 
-LRELU_SLOPE = 0.1
-
-
 class AMPLayer(nn.Module):
     def __init__(self, channels, kernel_size, dilation):
         super().__init__()
