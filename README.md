@@ -35,7 +35,7 @@ pip install torch torchaudio lightning pandas
 Trained 1000 epochs(612000 steps) with batch_size = 16.
 
 Pretrained model ckpt is here.
-[https://huggingface.co/reppy4620/hifi_gan_jsut/blob/main/jsut_1000.ckpt](https://huggingface.co/reppy4620/big_vgan_jsut/blob/main/jsut_1000.ckpt)
+[https://huggingface.co/reppy4620/big_vgan_jsut/blob/main/jsut_1000.ckpt](https://huggingface.co/reppy4620/big_vgan_jsut/blob/main/jsut_1000.ckpt)
 
 Some audio samples are in `asset/sample/`
 
